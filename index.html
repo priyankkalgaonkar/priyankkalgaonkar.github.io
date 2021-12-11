@@ -89,8 +89,9 @@
           <a href="mailto:pkalgaon@purdue.edu">pkalgaon@purdue.edu</a>
         </div>
         <p class="lead mb-5">Currently a post-graduate student and researcher at the Purdue School of Engineering and Technology, and previously served as a Clinical Systems Engineer at Renovo Solutions.
-<br><br>Prior to Renovo Solutions, was a Telemetry Developer at Philips North America. Primarily focused on creating and maintaining global database and monitored imaging devices around the world and developed a software prototype.
-<br><br>Previously served key leadership roles at the University of Toledo, most notably as a team leader for the Self-Checkout Shopping Cart capstone project, and most recently at the Purdue School of Engineering and Technology as a team leader for the Inventory Automation Using Electronically Connected Intelligent Shelves and Machine Learning project which was ranked #1 in class by peer reviews and ratings.</p>
+          <br><br>Most recently nominated for the prestigious IUPUI Elite 50 award that represent the best of the best among IUPUI’s graduate and professional students.
+          <br><br>Prior to Renovo Solutions, was a Telemetry Developer at Philips North America. Primarily focused on creating and maintaining global database and monitored imaging devices around the world and developed a software prototype.
+          <br><br>Previously served key leadership roles at the University of Toledo, most notably as a team leader for the Self-Checkout Shopping Cart capstone project, and most recently at the Purdue School of Engineering and Technology as a team leader for the Inventory Automation Using Electronically Connected Intelligent Shelves and Machine Learning project which was ranked #1 in class by peer reviews and ratings.</p>
         <div class="social-icons">
           <a href="https://www.linkedin.com/in/priyankkalgaonkar" target="_blank">
             <i class="fab fa-linkedin-in"></i>
@@ -247,7 +248,7 @@
             Programming Languages: C, C++, Embedded C, Python.</li>
           <li>
             <i class="fa-li fa fa-check"></i>
-            Embedded Platforms &amp; IDEs: Arm Mbed, Arduino, Atom, Komodo, Keil μVision &amp; Microsoft Visual Studio.</li>
+            Embedded Platforms &amp; IDEs: Arm Mbed, Arduino, Pixhawk, Atom, Komodo, Keil μVision &amp; Microsoft Visual Studio.</li>
           <li>
             <i class="fa-li fa fa-check"></i>
             Single-Board Microcontroller: Arduino UNO, Nvidia Jetson SBC, NXP K64F, BlueBox 2.0 &amp; Hexiwear.</li>
@@ -275,6 +276,19 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
       <div class="w-100">
         <h2 class="mb-5">Academic Projects</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Smart Greenhouse Project</h3>
+            <div class="subheading mb-3">Purdue School of Engineering and Technology</div>
+            <div>Developed a smart greenhouse system using ESP32 System on Chip (SoC) and FreeRTOS. Temperature and humidity are sensed (measured) using two DHT22 sensors via RMT controller on-board the ESP32 SoC, processed via a software implemented low-pass filter and this data is then periodically reported to the Mosquitto MQTT server Over-The-Air (OTA) via a Wi-Fi network. A central management server is created to remotely adjust the sensing period of the DHT22 sensors. Souce code repo has been published on my GitHub.
+            </div>
+          <br>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">September 2021 - December 2021</span>
+          </div>
+        </div>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
@@ -426,12 +440,27 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="publications">
       <div class="w-100">
         <h2 class="mb-5">Peer-Reviewed Publications</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">EffCNet: An Efficient CondenseNet for Image Classification on NXP BlueBox</h3>
+            <div class="subheading mb-3">American Journal of Electrical and Computer Engineering - Science Publishing Group.</div>
+              <p>Intelligent edge devices with built-in processors vary widely in terms of capability and physical form to perform advanced Computer Vision (CV) tasks such as image classification and object detection, for example. With constant advances in the field of autonomous cars and UAVs, embedded systems and mobile devices, there has been an ever-growing demand for extremely efficient Artificial Neural Networks (ANN) for real-time inference on these smart edge devices with constrained computational resources. With unreliable network connections in remote regions and an added complexity of data transmission, it is of an utmost importance to capture and process data locally instead of sending the data to cloud servers for remote processing. Edge devices on the other hand, offer limited processing power due to their inexpensive hardware, and limited cooling and computational resources. In this paper, we propose a novel deep convolutional neural network architecture called EffCNet which is an improved and an efficient version of CondenseNet Convolutional Neural Network (CNN) for edge devices utilizing self-querying data augmentation and depthwise separable convolutional strategies to improve real-time inference performance as well as reduce the final trained model size, trainable parameters, and Floating-Point Operations (FLOPs) of EffCNet CNN. Furthermore, extensive supervised image classification analyses are conducted on two benchmarking datasets: CIFAR-10 and CIFAR-100, to verify real-time inference performance of our proposed CNN. Finally, we deploy these trained weights on NXP BlueBox which is an intelligent edge development platform designed for self-driving vehicles and UAVs, and conclusions have been extrapolated accordingly.</p>
+            <b>See Publication (DOI): </b><a href="https://arxiv.org/abs/2111.14243" target="_blank">10.11648/j.ajece.20210502.15</a>
+            <br>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Accepted: August 2021
+              <br> Published: October 2021</span>
+          </div>
+        </div>
+
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">Image Classification with CondenseNeXt for ARM-Based Computing Platforms</h3>
             <div class="subheading mb-3">IEEE - International IOT, Electronics and Mechatronics Conference (IEMTRONICS)<br>Toronto, ON.</div>
             <p>In this paper, we demonstrate the implementation of our ultra-efficient deep convolutional neural network architecture: CondenseNeXt on NXP BlueBox, an autonomous driving development platform developed for self-driving vehicles. We show that CondenseNeXt is remarkably efficient in terms of FLOPs, designed for ARM-based embedded computing platforms with limited computational resources and can perform image classification without the need of a CUDA enabled GPU.</p>
-            <b>See Publication (DOI): </b><a href="https://doi.org/10.1109/IEMTRONICS52119.2021.9422541" target="_blank">10.1109/IEMTRONICS52119.2021.9422541</a>
+            <b>See Publication (DOI): </b><a href="https://arxiv.org/abs/2106.14102" target="_blank">10.1109/IEMTRONICS52119.2021.9422541</a>
             <br>
             <br>
             <ul class="fa-ul mb-0">
@@ -452,7 +481,7 @@
             <h3 class="mb-0">CondenseNeXt - An Ultra-Efficient Deep Neural Network for Embedded Systems</h3>
             <div class="subheading mb-3">IEEE - 11th Annual Computing & Communication Workshop and Conference (CCWC)<br>Las Vegas, NV.</div>
             <p>In this paper, we propose a neoteric variant of deep convolutional neural network architecture to ameliorate the performance of existing CNN architectures for real-time inference on embedded systems with constrained computational resources. We show that our architecture, named CondenseNeXt, based on PyTorch framework is remarkably efficient in comparison to the baseline neural network architecture, CondenseNet, by reducing trainable parameters and FLOPs required to train the network whilst maintaining a balance between the trained model size of less than 3.0 MB and accuracy trade-off resulting in an unprecedented computational efficiency.</p>
-            <b>See Publication (DOI): </b><a href="https://doi.org/10.1109/CCWC51732.2021.9375950" target="_blank">10.1109/CCWC51732.2021.9375950</a>
+            <b>See Publication (DOI): </b><a href="https://arxiv.org/abs/2112.00698" target="_blank">10.1109/CCWC51732.2021.9375950</a>
             <br>
             <br>
             <ul class="fa-ul mb-0">
